@@ -1,0 +1,47 @@
+.form-section{
+    padding-top: rem(100px);
+    padding-bottom: rem(126px);
+    background: url('/images/bg/form-bg.jpg') center center no-repeat;
+    background-size: cover;
+    @include phones{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.form-setion__desc{
+    color: #858585;
+    font-size: rem(18px);
+    margin-bottom: rem(89px);
+    text-align: center;
+}
+.form-wrpap{
+    display: flex;
+    justify-content: center;
+}
+.first-form{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    padding-top: rem(32px);
+    padding-bottom: rem(32px);
+    background: #FFFFFF;
+    border-radius: rem(3px);
+    border: none;
+    width: rem(378px);
+    text-align: center;
+    margin-bottom: rem(10px);
+    &:last-child{
+        margin-bottom: 0;
+    }
+    &::placeholder{
+        font-size: rem(16px);
+        text-align: center;
+        color: #858585;
+    }
+}
+.input--green{
+    background: #3EB466;
+    color: #fff;
+    font-size: rem(16px);
+}

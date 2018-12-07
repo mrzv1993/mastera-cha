@@ -1,0 +1,107 @@
+.hello{
+    background: #F7F7F7;
+    padding-top: rem(100px);
+    @include phones{
+        padding-top: 50px;
+    }
+}
+.mb-30{
+    margin-bottom: rem(30px);
+}
+.hello__desc{
+    font-size: rem(18px);
+    color: #858585;
+    margin-bottom: rem(100px);
+    text-align: center;
+    @include phones{
+        margin-bottom: 50px;
+    }
+}
+.hello__content{
+    display: flex;
+    margin-bottom: rem(68px);
+    @include laptop{
+        flex-direction: column;
+    }
+}
+.hello__col{
+   width: 100%;
+   margin-bottom: 128px;
+}
+.hello__col_left{
+    padding: rem(50px);
+}
+.hello__subtitle{
+    font-size: rem(21px);
+    color: #1E1E1E;
+    margin-bottom: rem(40px);
+}
+.hello__text{
+    line-height: rem(27px);
+    font-size: rem(14px);
+    color: #1E1E1E;
+}
+.hello__pic{
+    margin-bottom: rem(199px);
+    @include phones{
+        margin-bottom: 50px;
+    }
+}
+.our-photos__list{
+    display: flex;
+    @include tablets{
+        flex-direction: column;
+    }
+}
+.our-photos__item{
+    width: 25%;
+    margin-right: rem(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &:last-child{
+        margin-right: 0;
+    }
+    @include tablets{
+        width: 100%;
+    }
+}
+.photos__pic{
+    height: rem(290px);
+    background: rgba(62, 180, 102, 0.1);
+    border-radius: rem(3px);
+    width: 100%;
+    margin-bottom: rem(25px);
+}
+.our-photos__title{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: rem(25px);
+}
+.our-photos__desc{
+    font-weight: 400;
+    text-align: center;
+}
+.clients{
+    @include phones{
+        padding-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+}
+
+#hello-video {
+    display: block;
+    width: 100%;
+    height: 37.5rem;
+    background-color: #ccc;
+    background-image: url("/images/bg/placeholder.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  #hello-video.active {
+    background-color: white;
+    border: 2px solid #eee;
+  }

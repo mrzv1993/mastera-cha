@@ -1,0 +1,240 @@
+#images-slider-11{
+    .owl-dots{
+        position: absolute;
+        bottom: 24px;
+        left: 50%;
+        margin-left: -90px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }
+}
+
+#images-slider-3{
+    .owl-dots{
+        position: absolute;
+        bottom: 3.5%;
+        left: 50%;
+        margin-left: -50px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }   
+}
+#images-slider-4{
+    .owl-dots{
+        position: absolute;
+        bottom: 3.5%;
+        left: 50%;
+        margin-left: -120px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }   
+}
+#images-slider-5{
+    .owl-dots{
+        position: absolute;
+        bottom: 3.5%;
+        left: 50%;
+        margin-left: -120px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }   
+}
+#images-slider-9{
+    .owl-dots{
+        position: absolute;
+        bottom: 3.5%;
+        left: 50%;
+        margin-left: -72px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }   
+}
+#images-slider-6{
+    .owl-dots{
+        position: absolute;
+        bottom: 3.5%;
+        left: 50%;
+        margin-left: -72px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }   
+}
+#images-slider-7{
+    .owl-dots{
+        position: absolute;
+        bottom: 3.5%;
+        left: 50%;
+        margin-left: -72px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }   
+}
+#images-slider-8{
+    .owl-dots{
+        position: absolute;
+        bottom: 3.5%;
+        left: 50%;
+        margin-left: -48px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }   
+}
+.mb-81{
+    margin-bottom: rem(81px);
+}
+.pt-150{
+    padding-top: rem(150px);
+    margin-bottom: rem(100px);
+}
+.mb-22{
+    margin-bottom: rem(22px);
+}
+.pb-101{
+    padding-bottom: rem(101px);
+}
+.reviews-btn-left,.reviews-btn-right{
+    position: absolute;
+    bottom: 15%;
+    cursor: pointer;
+}
+.reviews-btn-left{
+    left: 179px;
+    @include tablets{
+        left: 10px;
+    }
+    @include phones{
+        left: 20px;
+    }
+}
+.reviews-btn-right{
+    right: 179px;
+    @include tablets{
+        right: 20px;
+    }
+       
+    @include phones{
+        right: 10px;
+    }
+}
+.btn-number{
+    transition: .2s;
+}
+.btn-number{
+    &:hover{
+        background: #ADADAD;
+        transition: .2s;
+        color: #fff;
+    }
+}
+.reviews-video{
+    height: rem(600px);
+    background: url('/images/bg/bg-video.jpg') center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.play-video-button{
+    width: rem(112px);
+    height: rem(116.01px);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: rem(-56px);
+    top: 50%;
+    margin-top: rem(-58px);
+    z-index: 100;
+}
+.td-last{
+    padding-right: 30px;
+    @include tablets{
+        padding-top: 0;
+    }
+}

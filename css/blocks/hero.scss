@@ -1,0 +1,149 @@
+.hero{
+    min-height: rem(650px);
+    background: url('/images/bg/bg-1.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    @include tablets{
+        margin-bottom: 0;
+    }
+}
+.hero__container{
+    position: relative;
+    z-index: 10;
+}
+.header{
+    padding-top: rem(40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    @include phones{
+        flex-direction: column;
+    }
+}
+.tel{
+    font-size: rem(16px);
+    color: #555555;
+    margin-right: rem(30px);
+    &:hover{
+        color: #555555;
+    }
+    @include phones{
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+}
+.bold{
+    font-weight: 600;
+    font-size: rem(15px);
+}
+.btn-call{
+    padding: rem(13px);
+    display: flex;
+    justify-content: center;
+    border-radius: rem(3px);
+    background: #3EB466;
+    color: #fff;
+    transition: .2s;
+    &:hover{
+        color: #fff;
+        background: #3EB466;
+        transition: .2s;
+    }
+}
+.hero__content{
+    width: 56%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    @include container{
+        width: 80%;
+    }
+    @include phones{
+        width: 100%;
+        text-align: center;
+    }
+}
+.hero__content-2{
+    margin-top: rem(-100px);
+    @include phones{
+        margin-top: -10.25rem;
+    }
+    @include smallPhones{
+        margin-top: -12.25rem;
+    }
+}
+.hero__title{
+    letter-spacing: 0.01em;
+    font-size: rem(55px);
+    color: #1E1E1E;
+    line-height: 64px;
+    margin-bottom: rem(40px);
+    font-weight: 900;
+    @include container{
+        width: 100%;
+    }
+    @include laptop{
+        width: 100%;
+    }
+    @include phones{
+        font-size: rem(48px);
+    }
+    @include smallPhones{
+        font-size: rem(40px);
+        margin-bottom: rem(5px);
+    }
+}
+.green{
+    color: #3EB466;
+}
+.hero__desc{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: rem(72px);
+    flex-direction: column;
+    @include phones{
+        padding-left: 20px;
+        flex-direction: column;
+    }
+    @include smallPhones{
+        margin-bottom: 1rem;
+    }
+}
+.hero__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: rem(24px);
+}
+.hero-circle{
+    width: rem(16px);
+    height: rem(16px);
+    background: #3EB466;
+    border-radius: 50%;
+    margin-right: rem(16px);
+}
+.hero-text{
+    font-size: rem(18px);
+}
+.hero__btn{
+    padding: rem(30px) rem(32px);
+    background: #3EB466;
+    border-radius: rem(3px);
+    display: inline-block;
+    font-size: rem(18px);
+    color: #FFFFFF;
+    transition: .2s;
+    font-weight: 600;
+    &:hover{
+        color: #fff;
+        background: #33ad5c;
+        transition: .2s;
+    }
+    @include smallPhones{
+        padding: rem(26px) rem(30px);
+    }
+}

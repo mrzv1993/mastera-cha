@@ -1,0 +1,35 @@
+// resolutions
+$container: 1135px;
+$laptop: 960px;
+$tablets: 768px;
+$phones: 540px;
+$smallPhones: 360px;
+
+//vars
+$green: #3EB466;
+
+
+//plugins
+@import "plugins/animate";
+@import "plugins/owl.carousel.min";
+@import "plugins/owl.theme.default.min";
+
+//layout
+@import "_misc/normalize";
+@import "_misc/mixins";
+@import "_misc/adjustment";
+
+//blocks
+@import "blocks/mobile-menu";
+@import "blocks/hero";
+@import "blocks/works";
+@import "blocks/third-section";
+@import "blocks/section-table";
+@import "blocks/nav";
+@import "blocks/hello";
+@import "blocks/modal";
+@import "blocks/main-slider";
+@import "blocks/form-section";
+@import "blocks/last-section";
+
+

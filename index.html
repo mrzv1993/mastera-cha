@@ -1,0 +1,1049 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta content="width=device-width, initial-scale=1" name="viewport"></meta>
+    <meta content="ie=edge" http-equiv="x-ua-compatible"></meta>
+    <title>Ремонт квартир</title>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"></link>
+    <link rel="stylesheet" href="/css/fonts/GothamPro/font.css"></link>
+    <link rel="stylesheet" href="/css/main.css"></link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"></link>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <!-- модальное окно -->
+		<div class="modal-overlay"></div>
+
+    <div class="modal">
+        <div class="modal__content">
+            <div class="modal__close">
+                <div class="close-decor close-decor-1"></div>
+                <div class="close-decor close-decor-2"></div>
+            </div>
+
+            <h3 class="modal__title">Зазаказть звонок!</h3>
+
+            <form>
+
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Мастера Частники" >
+                <input type="hidden" name="admin_email" value="masterov.b@yandex.ru" >
+                <input type="hidden" name="form_subject" value="Модальное окно">
+                <!-- END Hidden Required Fields -->
+        
+                <input type="text" name="Name" placeholder="Введите ваше имя" class="modal__input" required><br>
+                <input type="text" name="Phone" placeholder="Введите ваш номер" class="mask modal__input mb-40" required><br>
+                <button class="modal__input modal__input--submit">Заказать</button>
+        
+            </form>
+        </div>
+
+	</div>
+    <!-- /модальное окно -->
+    <!-- мобильное меню -->
+
+    <div class="mobile-menu">
+        <div class="mobile-menu__close">
+            <div class="close-wrap">
+                <svg class="close-svg">
+					<use xlink:href="/images/svg/sprite.svg#cross-3"></use>
+				</svg>
+            </div>
+        </div>
+
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+                <a href="#two" class="mobile-menu__link">смотреть работы</a>
+            </li>
+
+            <li class="mobile-menu__decor"></li>
+
+            <li class="mobile-menu__item">
+                <a href="#three" class="mobile-menu__link">чем мы будем вам полезны</a>
+            </li>
+
+            <li class="mobile-menu__decor"></li>
+
+            <li class="mobile-menu__item">
+                <a href="#four" class="mobile-menu__link">Как мы сэкономим</a>
+            </li>
+
+            <li class="mobile-menu__decor"></li>
+
+            <li class="mobile-menu__item">
+                <a href="#five" class="mobile-menu__link">Наши цены</a>
+            </li>
+
+            <li class="mobile-menu__decor"></li>
+
+            <li class="mobile-menu__item">
+                <a href="#six" class="mobile-menu__link">Давайте знакомится</a>
+            </li>
+
+            <li class="mobile-menu__item">
+                <a href="#seven" class="mobile-menu__link">отзывы</a>
+            </li>
+
+            <li class="mobile-menu__item">
+                <a href="#nine" class="mobile-menu__link">почему с нами выгодно</a>
+            </li>
+
+            <li class="mobile-menu__item">
+                <a href="#eight" class="mobile-menu__link">Рассчитать стоимость</a>
+            </li>
+
+            <li class="mobile-menu__item mobile-menu__item_tel">
+                <a href="tel:8(843) 259-99-92" class="tel-icon">
+					<img
+						src="/images/svg/call-answer.svg"
+						alt="иконка с телефоном"
+						class="icon-phone"
+					>
+				</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- /мобильное меню -->
+
+    <div class="wrapper">
+        <div class="maincontent">
+            <!-- контент: -->
+
+            <section id="one" class="section hero">
+                <div class="container hero__container">
+                    <nav class="nav">
+                        <ul id="top-menu" class="nav__list">
+                            <li class="nav__item">
+                                <a href="#one" class="nav__link"></a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#two" class="nav__link"></a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#three" class="nav__link"></a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#four" class="nav__link"></a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#five" class="nav__link"></a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#six" class="nav__link"></a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#seven" class="nav__link"></a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#eight" class="nav__link"></a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#nine" class="nav__link"></a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <header class="header">
+                        <a href="/" class="logo">
+							<img
+								src="/images/svg/kist.svg"
+								alt="кисть"
+								class="logo__img"
+							>
+						</a>
+
+                        <div class="hamburger">
+                            <div class="line line-1"></div>
+                            <div class="line line-2"></div>
+                            <div class="line line-3"></div>
+                        </div>
+
+                        <div class="contacts">
+                            <a href="tel:8 (903) 541 28 28" class="tel">
+								8 (903)
+
+								<span class="bold">541 28 28</span>
+							</a>
+
+                            <a href="#" class="btn-call modal-btn">Заказать звонок</a>
+                        </div>
+                    </header>
+
+                    <div class="hero__content">
+                        <div class="hero__content-2">
+                            <h1 class="hero__title animated bounce">
+                                Ремонт квартиры
+
+                                <br> от
+
+                                <span class="green">частной бригады</span>
+
+                                <br> под ключ в Казани
+                            </h1>
+
+                            <div class="hero__desc">
+                                <ul class="hero__list">
+                                    <li class="hero__item">
+                                        <div class="hero-circle"></div>
+
+                                        <div class="hero-text">
+                                            Не берем предоплат, расчет только за выполненные работы
+                                        </div>
+                                    </li>
+
+                                    <li class="hero__item">
+                                        <div class="hero-circle"></div>
+
+                                        <div class="hero-text">
+                                            Укладываемся в кратчайшие сроки
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <ul class="hero__list">
+                                    <li class="hero__item">
+                                        <div class="hero-circle"></div>
+
+                                        <div class="hero-text">
+                                            Ремонт делаем именно мы, а не третьи лица
+                                        </div>
+                                    </li>
+
+                                    <li class="hero__item">
+                                        <div class="hero-circle"></div>
+
+                                        <div class="hero-text">
+                                            Гарантия 365 дней после сдачи своей работы
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <a href="#two" class="hero__btn mobile-menu__link">Смотреть выполненные проекты</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section data-section="two" id="two" class="section works">
+                <div class="container">
+                    <h2 id="botDiv" data-wow-offset="40" class="section__title animated wow bounceInLeft mb-30">
+                        Мы гордимся нашими
+
+                        <span class="green">работами</span>
+                    </h2>
+
+                    <div data-wow-offset="0" data-wow-delay="3000" class="work__desc animated wow bounceInLeft">
+                        Воплощаем все смелые идеи заказчика за доступные деньги
+                    </div>
+
+                    <div id="scroll" class="work__slider">
+                        <ul id="main-slider" class="main-sliderr">
+                            <li class="main-slider__item main-slider__item-1">
+                                <div class="main-slider__imgs">
+                                    <ul id="images-slider" class="images-slider owl-carousel owl-theme">
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/gollivud-1.png" alt="" class="images-slider__img">
+                                        </li>
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/gollivud-2.png" alt="" class="images-slider__img">
+                                        </li>
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/gollivud-3.png" alt="" class="images-slider__img">
+                                        </li>
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/gollivud-4.png" alt="" class="images-slider__img">
+                                        </li>
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/gollivud-5.png" alt="" class="images-slider__img">
+                                        </li>
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/gollivud-6.png" alt="" class="images-slider__img">
+                                        </li>
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/gollivud-7.png" alt="" class="images-slider__img">
+                                        </li>
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/gollivud-8.png" alt="" class="images-slider__img">
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="main-slider__desc">
+                                    <div class="mainslider-btn btn-left mn-left">
+                                        <img src="/images/svg/main-nav-left.svg" alt="" class="btn-left__img">
+																		</div>
+
+																		<div class="mainslider-center">
+																			<h3 class="main-slider__title">Ремонт в ЖК «Голливуд»</h3>
+																			<div class="main-slider__btn">
+																					<button href="#" class="modal-btn btn-read-reviews modal-btn main-button">
+																 Читать отзыв
+																</button>
+																			</div>
+																		</div>
+                                    <div class="mainslider-btn btn-right mn-right">
+                                        <img src="/images/svg/main-nav-right.svg" alt="" class="btn-right__left">
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="main-slider__item none main-slider__item-2">
+                                <div class="main-slider__imgs">
+                                    <ul id="images-slider-3" class="images-slider owl-carousel owl-theme">
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/zuram-1.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/zuram-2.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/zuram-3.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/zuram-4.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/zuram-5.png" alt="" class="images-slider__img">
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="main-slider__desc">
+                                    <div class="mainslider-btn btn-left mn-left">
+                                        <img src="/images/svg/main-nav-left.svg" alt="" class="btn-left__img">
+                                    </div>
+																		
+																		<div class="mainslider-center">
+																				<h3 class="main-slider__title">Зурам</h3>
+																				<div class="main-slider__btn">
+																						<button href="#" class="modal-btn btn-read-reviews modal-btn main-button">
+																	 Читать отзыв
+																	</button>
+																				</div>
+																			</div>
+
+                                    <div class="mainslider-btn btn-right mn-right">
+                                        <img src="/images/svg/main-nav-right.svg" alt="" class="btn-right__left">
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="main-slider__item none main-slider__item-2">
+                                <div class="main-slider__imgs">
+                                    <ul id="images-slider-4" class="images-slider owl-carousel owl-theme">
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/konstantinovka-1.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/konstantinovka-2.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/konstantinovka-3.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/konstantinovka-4.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/konstantinovka-5.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/konstantinovka-6.png" alt="" class="images-slider__img">
+                                        </li>
+
+                                        <li class="images-slider__item">
+                                            <img src="/images/content/konstantinovka-7.png" alt="" class="images-slider__img">
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="main-slider__desc">
+                                    <div class="mainslider-btn btn-left mn-left">
+                                        <img src="/images/svg/main-nav-left.svg" alt="" class="btn-left__img">
+                                    </div>
+
+                      					
+																		<div class="mainslider-center">
+																				<h3 class="main-slider__title">Константиновка</h3>
+																				<div class="main-slider__btn">
+																						<button href="#" class="modal-btn btn-read-reviews modal-btn main-button">
+																	 Читать отзыв
+																	</button>
+																				</div>
+																			</div>
+
+                                    <div class="mainslider-btn btn-right mn-right">
+                                        <img src="/images/svg/main-nav-right.svg" alt="" class="btn-right__left">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section data-section="three" id="three" class="section third-section">
+                <div class="container third-section__container">
+                    <h2 data-wow-offset="40" class="section__title mb-60 animated wow bounceInLeft">
+                        Чем мы будем вам
+
+                        <span class="green">полезны?</span>
+                    </h2>
+
+                    <div data-wow-offset="0" data-wow-delay="3000" class="third-section__desc animated wow bounceInLeft">
+                        <p>
+                            Каждый специалист нашей бригады занимается своим делом, но при этом, разбирается во всем остальном. За счет слаженной работы, мы выполняем все работы максимально быстро.
+                        </p>
+                    </div>
+
+                    <div class="third-section__content">
+                        <ul class="hero__list">
+                            <li class="hero__item third-section__item">
+                                <div class="hero-circle"></div>
+
+                                <div class="hero-text third-section__text">
+                                    Отремонтируем квартиру под ключ
+                                </div>
+                            </li>
+
+                            <li class="hero__item third-section__item">
+                                <div class="hero-circle"></div>
+
+                                <div class="hero-text third-section__text">Поклеим обои и багеты</div>
+                            </li>
+
+                            <li class="hero__item third-section__item">
+                                <div class="hero-circle"></div>
+
+                                <div class="hero-text third-section__text">
+                                    Уложим плитку, ламинат и линолеум
+                                </div>
+                            </li>
+                        </ul>
+
+                        <ul class="hero__list">
+                            <li class="hero__item third-section__item">
+                                <div class="hero-circle"></div>
+
+                                <div class="hero-text third-section__text">Установим натяжные потолки</div>
+                            </li>
+
+                            <li class="hero__item third-section__item">
+                                <div class="hero-circle"></div>
+
+                                <div class="hero-text third-section__text">Покрасим и отштукатурим</div>
+                            </li>
+
+                            <li class="hero__item third-section__item">
+                                <div class="hero-circle"></div>
+
+                                <div class="hero-text third-section__text">
+                                    Установим сантехнику и электрику
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section data-section="four" id="four" class="section section-table first-table">
+                <div class="container">
+
+                    <div class="section-title">
+                        <div class="section-title-left big-title">
+                            <h2>Как мы <span class="green">сэкономим</span><br> вам время и деньги?</h2>
+                        </div>
+                        <div class="section-title-right small-title">
+                            <p>Почему вы переплачиваете за ремонт <br> более 30% от общей суммы?</p>
+                        </div>
+                    </div>
+
+                    <ul class="table">
+                        <li class="table-row">
+                            <div class="table-row__col-1 table-title">
+                                Факторы в работе
+                            </div>
+                            <div class="table-row__col-2 table-title">
+                                Частная бригада
+                            </div>
+                            <div class="table-row__col-3 table-title">
+                                Компания
+                            </div>
+                            <div class="table-row__col-4 table-title">
+                                Вывод
+                            </div>
+                        </li>
+                        <li class="table-row">
+                            <div class="table-row__col-1">
+                                Посредник
+                            </div>
+                            <div class="table-row__col-2">
+                                Нет
+                            </div>
+                            <div class="table-row__col-3">
+                                Есть
+                            </div>
+                            <div class="table-row__col-4">
+                                Директор, менеджеры, бухгалтера — чем больше звеньев, тем выше стоимость ремонта.
+                            </div>
+                        </li>
+                        <li class="table-row">
+                            <div class="table-row__col-1">
+                                Предоплата
+                            </div>
+                            <div class="table-row__col-2">
+                                Нет
+                            </div>
+                            <div class="table-row__col-3">
+                                Есть
+                            </div>
+                            <div class="table-row__col-4">
+                                Компании берут предоплату, потому что несут организационные издержки.
+                            </div>
+                        </li>
+                        <li class="table-row">
+                            <div class="table-row__col-1">
+                                Переплата
+                            </div>
+                            <div class="table-row__col-2">
+                                Минимальная
+                            </div>
+                            <div class="table-row__col-3">
+                                В 2 раза выше
+                            </div>
+                            <div class="table-row__col-4">
+                                Стоимость ремонта у фирм выше, по причине выскоих организационных расходов.
+                            </div>
+                        </li>
+                        <li class="table-row">
+                            <div class="table-row__col-1">
+                                Личная ответственность <br> и контроль качества
+                            </div>
+                            <div class="table-row__col-2">
+                                Есть
+                            </div>
+                            <div class="table-row__col-3 table-green">
+                                Есть
+                            </div>
+                            <div class="table-row__col-4">
+                                Присутствуют в обоих случаях, хотя и не всегда выполняются должным образом
+                            </div>
+                        </li>
+
+                </div>
+        </div>
+        </section>
+
+        <section data-section="five" id="five" class="section section-table second-table">
+            <div class="container">
+
+                <div class="section-title">
+                    <div class="section-title-left small-title">
+                        <p>Сколько денег вы сэкономите <br> только на работе?</p>
+                    </div>
+                    <div class="section-title-right big-title">
+                        <h2>Реальные <span class="green">цены</span><br> на рынке</h2>
+                    </div>
+                </div>
+
+                <ul class="table">
+                    <li class="table-row">
+                        <div class="table-row-2__col-1 table-title">
+                            Отделочные работы (за м2)
+                        </div>
+                        <div class="table-row-2__col-2 table-title">
+                            Частная бригада
+                        </div>
+                        <div class="table-row-2__col-3 table-title">
+                            Компания - посредник
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Демонтаж обоев
+                        </div>
+                        <div class="table-row-2__col-2">
+                            30 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            100 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Демонтаж пола
+                        </div>
+                        <div class="table-row-2__col-2">
+                            50 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            100 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Шпаклевка стен в 2 слоя
+                        </div>
+                        <div class="table-row-2__col-2">
+                            130 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            250 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Ошкуривание стен
+                        </div>
+                        <div class="table-row-2__col-2">
+                            30 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            80 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Грунтование стен
+                        </div>
+                        <div class="table-row-2__col-2">
+                            15 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            60 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Поклейка обоев
+                        </div>
+                        <div class="table-row-2__col-2">
+                            90 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            170 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Поклейка багетов
+                        </div>
+                        <div class="table-row-2__col-2">
+                            100 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            150 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Наливной пол
+                        </div>
+                        <div class="table-row-2__col-2">
+                            100 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            180 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Укладка ламината / линолеума
+                        </div>
+                        <div class="table-row-2__col-2">
+                            100 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            180 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Монтаж плинтусов
+                        </div>
+                        <div class="table-row-2__col-2">
+                            80 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            120 руб.
+                        </div>
+                    </li>
+                    <li class="table-row">
+                        <div class="table-row-2__col-1">
+                            Установка натяжного потолка
+                        </div>
+                        <div class="table-row-2__col-2">
+                            250 руб.
+                        </div>
+                        <div class="table-row-2__col-3">
+                            350 руб.
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+    </div>
+    </section>
+
+    <section id="six" data-section="eight" class="section form-section">
+        <div class="container">
+            <h2 class="section__title">
+                Бесплатно расчитаем
+
+                <span class="green">стоимость ремонта</span>
+            </h2>
+
+            <div class="form-setion__desc">
+                Оставьте ваши данные, и мы перезвоним вам
+            </div>
+
+            <div class="form-wrpap">
+                <form>
+
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Мастера Частники" >
+                    <input type="hidden" name="admin_email" value="masterov.b@yandex.ru" >
+                    <input type="hidden" name="form_subject" value="Первая форма">
+                    <!-- END Hidden Required Fields -->
+            
+                    <input type="text" name="Name" placeholder="Введите ваше имя" class="mask input" required><br>
+                    <input type="text" name="Phone" placeholder="Введите ваш номер" class="input" required><br>
+                    <button class="input input--green">Рассчитать стоимость ремонта</button>
+            
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="seven" data-section="six" class="section hello">
+        <div class="container">
+            <h2 data-wow-offset="40" class="section__title mb-30 animated wow bounceInLeft">
+                Давайте
+
+                <span class="green">знакомиться!</span>
+            </h2>
+
+            <div data-wow-offset="0" data-wow-delay="3000" class="hello__desc animated wow bounceInLeft">
+                Посмотрите видео о нашей бригаде
+            </div>
+
+            <div class="hello__content">
+                <div class="hello__col">
+                    <div id="hello-video"></div>
+                </div>
+            </div>
+
+            <h2 data-wow-offset="40" class="section__title mb-30 animated wow bounceInLeft">
+                <span class="green">Наша бригада</span> по ремонту вашей квартиры
+            </h2>
+
+            <div data-wow-offset="0" data-wow-delay="3000" class="hello__desc animated wow bounceInLeft">
+                Каждый из нас - мастер своего дела!
+            </div>
+
+            <div class="hello__pic">
+                <img src="/images/content/we.jpg" alt="наша бригада" class="hello__img">
+            </div>
+        </div>
+    </section>
+
+    <section data-section="seven" id="eight" class="section works pt-150 clients">
+        <div class="container">
+            <h2 data-wow-offset="40" class="section__title animated wow bounceInLeft mb-81">
+                Наши клиенты
+
+                <span class="green">довольны</span> результатом
+            </h2>
+
+            <div class="work__slider">
+                <ul id="images-slider-2" class="main-slider owl-carousel owl-theme">
+										
+                    <li class="main-slider__item">
+                        <div class="main-slider__imgs">
+                            <ul id="images-slider-2" class="">
+                                <li class="images-slider__item reviews-video">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NJEswNWGHz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                                </li>
+                            </ul>
+                        </div>
+												
+										<div class="main-slider__desc">
+
+												<div class="mainslider-center">
+														<h3 class="main-slider__title">Отзыв Ильгиза</h3>
+														<div class="main-slider__btn">
+																<button href="#" class="modal-btn btn-read-reviews modal-btn main-button">
+											 Спросить номер
+											</button>
+														</div>
+													</div>
+										</div>
+
+                    </li>
+
+                    <li class="main-slider__item">
+                        <div class="main-slider__imgs">
+                            <ul id="images-slider-2" class="">
+                                <li class="images-slider__item reviews-video">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Fv-nltohoPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                                </li>
+                            </ul>
+                        </div>
+												<div class="main-slider__desc">
+
+														<div class="mainslider-center">
+																<h3 class="main-slider__title">Отзыв Ильгиза</h3>
+																<div class="main-slider__btn">
+																		<button href="#" class="modal-btn btn-read-reviews modal-btn main-button">
+													 Спросить номер
+													</button>
+																</div>
+															</div>
+												</div>
+                    </li>
+
+                    <li class="main-slider__item">
+                        <div class="main-slider__imgs">
+                            <ul id="images-slider-2" class="">
+                                <li class="images-slider__item reviews-video">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9Efy9-EbHN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                                </li>
+                            </ul>
+                        </div>
+												<div class="main-slider__desc">
+
+														<div class="mainslider-center">
+																<h3 class="main-slider__title">Отзыв Ильгиза</h3>
+																<div class="main-slider__btn">
+																		<button href="#" class="modal-btn btn-read-reviews modal-btn main-button">
+													 Спросить номер
+													</button>
+																</div>
+															</div>
+												</div>
+                    </li>
+
+                    <li class="main-slider__item">
+                        <div class="main-slider__imgs">
+                            <ul id="images-slider-2" class="">
+                                <li class="images-slider__item reviews-video">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WJUpXaE_K1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+                                </li>
+                            </ul>
+                        </div>
+												<div class="main-slider__desc">
+
+														<div class="mainslider-center">
+																<h3 class="main-slider__title">Отзыв Ильгиза</h3>
+																<div class="main-slider__btn">
+																		<button href="#" class="modal-btn btn-read-reviews modal-btn main-button">
+													 Спросить номер
+													</button>
+																</div>
+															</div>
+												</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section data-section="nine" id="nine" class="section third-section">
+        <div class="container third-section__container">
+            <h2 id="nine" data-wow-offset="40" class="section__title mb-60 animated wow bounceInLeft">
+                Почему с нами
+
+                <span class="green">выгодно</span>
+            </h2>
+
+            <div class="third-section__content">
+                <ul class="hero__list">
+                    <li class="hero__item third-section__item">
+                        <div class="hero-circle"></div>
+
+                        <div class="hero-text third-section__text">Низкие цены</div>
+                    </li>
+
+                    <li class="hero__item third-section__item">
+                        <div class="hero-circle"></div>
+
+                        <div class="hero-text third-section__text">
+                            Скидки на материалы (закупка и доставка)
+                        </div>
+                    </li>
+
+                    <li class="hero__item third-section__item">
+                        <div class="hero-circle"></div>
+
+                        <div class="hero-text third-section__text">
+                            Быстрые сроки выполнения ремонта
+                        </div>
+                    </li>
+
+                    <li class="hero__item third-section__item">
+                        <div class="hero-circle"></div>
+
+                        <div class="hero-text third-section__text">
+                            Поэтапная оплата без предоплаты
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="hero__list">
+                    <li class="hero__item third-section__item">
+                        <div class="hero-circle"></div>
+
+                        <div class="hero-text third-section__text">
+                            Поможем подобрать обои, ламинат, плитку и т.д
+                        </div>
+                    </li>
+
+                    <li class="hero__item third-section__item">
+                        <div class="hero-circle"></div>
+
+                        <div class="hero-text third-section__text">Вывезим строительный мусор</div>
+                    </li>
+
+                    <li class="hero__item third-section__item">
+                        <div class="hero-circle"></div>
+
+                        <div class="hero-text third-section__text">
+                            Гарантийное обслуживание по ремонту
+                        </div>
+                    </li>
+
+                    <li class="hero__item third-section__item">
+                        <div class="hero-circle"></div>
+
+                        <div class="hero-text third-section__text">Уборка после окончания работ</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="ten" class="section last-section">
+        <div class="container">
+            <h2 class="section__title">
+                Остались
+
+                <span class="green">вопросы?</span>
+            </h2>
+
+            <div class="last-section__desc">
+                Оставьте заявку или позвоните нам прямо сейчас!
+            </div>
+
+            <div class="last-section__content">
+                <form>
+
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Мастера Частники" >
+                    <input type="hidden" name="admin_email" value="masterov.b@yandex.ru" >
+                    <input type="hidden" name="form_subject" value="Вторая форма">
+                    <!-- END Hidden Required Fields -->
+            
+                    <input type="text" name="Name" placeholder="Введите ваше имя" class="mask input" required><br>
+                    <input type="text" name="Phone" placeholder="Введите ваш номер" class="input" required><br>
+                    <button class="input input--green">Рассчитать стоимость ремонта</button>
+            
+                </form>
+
+                <div class="last-section__right">
+                    <a href="tel:8 (903) 541 28 28" class="last-section__tel">
+								8 (903)
+
+								<span class="bolder">541 28 28</span>
+							</a>
+
+                    <div class="tel-name">Руслан (бригадир)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </div>
+
+    <!-- <div id="toTop"><i class="fas fa-arrow-alt-circle-up"></i></div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/ajax.js"></script>
+    <script src="common.js"></script>
+
+    <script>
+        var overlay = document.querySelector('.modal-overlay');
+        		var modal = document.querySelector('.modal');
+        		var modalBtn = document.querySelector('.modal-btn');
+        		var body = document.querySelector('body');
+        		var modalClose = document.querySelector('.modal__close');
+        		
+        		$('.modal-btn').click(function(e){
+        			$('.modal-overlay').addClass('modal-overlay_active');
+        			
+        			$('.modal').addClass('modal_active');
+        			$('.modal').addClass('animated');
+        			$('.modal').addClass('bounce');
+        		})
+        
+        		// modalBtn.addEventListener('click', function(e){
+            	// 	e.preventDefault();
+        		// 	overlay.classList.add('modal-overlay_active');
+        		// 	body.classList.add('ov-hid');
+        		// 	setTimeout(function(){
+        		// 		modal.classList.add('modal_active');
+        		// 		modal.classList.add('animated');
+        		// 		modal.classList.add('bounce');
+        		// 	}, 200);
+        		// })
+        		overlay.addEventListener('click', function(){
+        			overlay.classList.remove('modal-overlay_active');
+        			modal.classList.remove('modal_active');
+        			body.classList.remove('ov-hid');
+        		});
+        		modalClose.addEventListener('click', function(){
+        			overlay.classList.remove('modal-overlay_active');
+        			modal.classList.remove('modal_active');
+        			body.classList.remove('ov-hid');
+        		});
+        
+        
+        		$(document).ready(function(){
+             		$(".mask").mask("8(999) 999-9999");
+						});
+						
+						$('#hello-video').on('click', function() {
+  					$(this).html('<iframe src="https://www.youtube.com/embed/aVRLnKq1ywE?autoplay=1" width="100%" height="100%" frameborder="0" allowfullscreen="false">')
+  					.addClass('active');
+});
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

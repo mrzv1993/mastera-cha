@@ -1,0 +1,114 @@
+.modal-overlay{
+    transition: .1s;
+}
+
+.modal-overlay_active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(62,180,102, .3);
+    z-index: 10;
+}
+
+.modal{
+    display: none;
+    opacity: 0;
+}
+
+
+.modal_active{
+    display: block;
+    opacity: 1;
+    transition: opacity .5s;
+    position: fixed;
+    left: 50%;
+    margin-left: rem(-200px);
+    z-index: 1001;
+    @include phones{
+        margin-left: 0;
+        left: 10%;
+        width: 80%;
+    }
+    top: 50vh;
+    margin-top: rem(-182px);
+}
+.ov-hid{
+    overflow: hidden;
+}
+.modal__content{
+    display: flex;
+    flex-direction: column;
+    background: #F7F7F7;
+    padding: rem(40px);
+    width: rem(400px);
+    @include phones{
+        width: 100%;
+    }
+}
+.modal__title{
+    text-align: center;
+    margin-bottom: rem(30px);
+    font-size: rem(24px);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.modal__input{
+    background: #F7F7F7;
+    margin-bottom: rem(20px);
+    border-bottom: 2px solid $green;
+    padding-top: rem(10px);
+    padding-bottom: rem(10px);
+    padding-left: rem(15px);
+    height: rem(50px);
+    font-size: rem(18px);
+}
+.modal__input--submit{
+    background: $green;
+    color: #fff;
+    font-size: rem(20px);
+    transition: .2s;
+    &:hover{
+        background: #33ad5c;
+        transition: .2s;
+    }
+}
+.mb-40{
+    margin-bottom: rem(40px);
+}
+.modal__close{
+    width: rem(50px);
+    height: rem(50px);
+    background: $green;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 91%;
+    bottom: 91%;
+    cursor: pointer;
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        background: #33ad5c;
+        transition: .2s;
+    }
+}
+.close-decor{
+    width: rem(3px);
+    height: rem(30px);
+    background: #fff;
+    position: absolute;
+}
+.close-decor-1{
+    transform: rotate(-45deg);
+}
+.close-decor-2{
+    transform: rotate(45deg);
+}
