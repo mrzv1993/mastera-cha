@@ -431,3 +431,4 @@ t.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
 	var s = t.find('[data-slick-index="'+nextSlide+'"]').attr('data');
 	t.slick('setOption','autoplaySpeed',s);
 });
+
