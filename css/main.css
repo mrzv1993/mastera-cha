@@ -3361,7 +3361,7 @@ textarea:focus {
 
 #images-slider .owl-dots {
   position: absolute;
-  bottom: 24px;
+  bottom: 14px;
   left: 50%;
   margin-left: -90px; }
   #images-slider .owl-dots span {
@@ -3499,7 +3499,7 @@ textarea:focus {
   height: 100px;
   border-right: 6px solid #3EB466;
   padding-right: 64px;
-  text-align: right; }
+  text-align: left; }
 
 .section-title-right {
   width: 50%;
@@ -3938,9 +3938,22 @@ textarea:focus {
 #images-slider-11 .owl-dot span {
   background: #CFCFCF; }
 
-#images-slider-3 .owl-dots {
+#images-slider-2 .owl-dots {
   position: absolute;
   bottom: 3.5%;
+  left: 50%;
+  margin-left: -50px; }
+  @media screen and (max-width: 768px) {
+    #images-slider-2 .owl-dots {
+      display: none; } }
+  #images-slider-2 .owl-dots .active span {
+    background: #3EB466; }
+#images-slider-2 .owl-dot span {
+  background: #CFCFCF; }
+
+#images-slider-3 .owl-dots {
+  position: absolute;
+  bottom: 0.75rem;
   left: 50%;
   margin-left: -50px; }
   @media screen and (max-width: 768px) {
@@ -3953,9 +3966,9 @@ textarea:focus {
 
 #images-slider-4 .owl-dots {
   position: absolute;
-  bottom: 3.5%;
+  bottom: 0.75rem;
   left: 50%;
-  margin-left: -120px; }
+  margin-left: -80px; }
   @media screen and (max-width: 768px) {
     #images-slider-4 .owl-dots {
       display: none; } }
@@ -4138,6 +4151,7 @@ textarea:focus {
     color: #858585; }
 
 .input--green {
+  font-weight: 600;
   background: #3EB466;
   color: #fff;
   font-size: 1rem; }

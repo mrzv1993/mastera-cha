@@ -20,7 +20,8 @@
     }
 }
 
-#images-slider-3{
+
+#images-slider-2{
     .owl-dots{
         position: absolute;
         bottom: 3.5%;
@@ -41,12 +42,34 @@
         }
     }   
 }
+
+#images-slider-3{
+    .owl-dots{
+        position: absolute;
+        bottom: rem(12px);
+        left: 50%;
+        margin-left: -50px;
+        @include tablets{
+            display: none;
+        }
+        .active{
+            span{
+                background: #3EB466;
+            }
+        }
+    }
+    .owl-dot{
+        span{
+            background: #CFCFCF;
+        }
+    }   
+}
 #images-slider-4{
     .owl-dots{
         position: absolute;
-        bottom: 3.5%;
+        bottom: rem(12px);
         left: 50%;
-        margin-left: -120px;
+        margin-left: -80px;
         @include tablets{
             display: none;
         }
